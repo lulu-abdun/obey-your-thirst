@@ -1,0 +1,114 @@
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav-bar {
+    background-color: rgb(70,151,59);
+}
+
+#sprite-logo img{
+    display: inline;
+    float: left;
+}
+
+#nav-bar-selections li{
+    color: white;
+    padding: 1rem;
+    display: inline;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.social-media-nav img{
+    display: inline;
+    float: right;
+    padding: 1rem;
+    position: relative;
+    top: -10px;
+}
+
+
+.middle-section{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 30px;
+}
+
+.middle-section h1{
+   line-height: 75px;
+   font-size: 75px; 
+}
+
+.middle-section p{
+    font-size: 20px;
+}
+/* #middle-section-title{
+    line-height: 75px;
+    font-size: 75px;
+} */
+
+/* #middle-section-text{
+    font-size: 20px;
+} */
+/* You haven't learned this yet but you will this weekend - its a more efficient way of positioning elements */
+
+.visual-media
+{
+    display:inline-flex;
+}
+
+.artist{
+    /* width: 300px; */
+    /* Instead of explicitly setting a width and height lets just add a bit of padding first. */
+    padding:1rem;
+    margin: 1rem;
+    /* height: 300px; */
+    /* background-color: white; */
+}
+
+.empire{
+    /* width: 300px; */
+    /* float: right; */
+    /* height: 300px; */
+    /* background-color: white; */
+    padding:1rem;
+    margin: 1rem;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    /* text-decoration: none; */
+    font-style: italic;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    /* text-decoration: none; */
+}
+
+.thirsts-most-wanted{
+    background-color: #43934d;
+}
+
+.thirsts-most-wanted h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    /* width: 300px;
+    height: 300px; */
+    text-transform: uppercase;
+}
+.thirsts-most-wanted img{
+
+}

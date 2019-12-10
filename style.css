@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+  }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Header Styles */
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav-bar {
+    background-color: rgb(70,151,59);
+}
+
+.sprite-logo img{
+    display: inline;
+    float: left;
+}
+
+#nav-bar-selections li{
+    color: white;
+    padding: 1rem;
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: 1px;
+    padding-top: 2.5rem;
+    float: left;
+}
+
+.social-media-nav img{
+    display: inline;
+    padding: 1rem;
+    top: -10px;
+    padding-top: 2.5rem;
+    float: right;
+}
+
+/* Hero Styles */
+
+#hero{
+    margin:-4px;
+}
+
+#hero img{
+    width: 100%;
+    background-color: #56b869;
+    padding-top:5rem;
+}
+
+/* Sprite Manifesto Styles */
+
+.middle-section{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 30px;
+    padding-top: 2rem;
+}
+
+.middle-section h1{
+    line-height: 75px;
+    font-size: 75px; 
+ }
+ 
+ .middle-section p{
+     font-size: 20px;
+ }
+
+/* Video Section Styles */
+
+.visual-media
+{
+    display:inline-flex;
+}
+
+.videos{
+    padding:1rem;
+    margin: 1rem;
+}
+
+.videos a{
+    font-family: 'Montserrat', sans-serif;
+    font-style: oblique;
+    text-decoration: none;
+    color: #56b869;
+}
+
+#lemon{
+    background-color: #44934d;
+    object-fit: cover; 
+}
+
+#lemon img{
+    width:100%;
+}
+
+#thirst-sticker{
+    background-color: white;
+    object-fit: cover;
+}
+
+#thirst-sticker img{
+    width:100%;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Thirt's Most Wanted Styles */
+
+.thirsts-most-wanted{
+    background-color: #43934d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirsts-most-wanted img:hover{
+    opacity:0.5;
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.thirsts-most-wanted h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #fff;
+    font-style: italic;
+}
+
+.thirsts-most-wanted button{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    background-color: #43934d;
+    color: #fff;
+    display: flex;
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.thirsts-most-wanted a{
+    text-decoration: none;
+}
+
+.thirsts-most-wanted a:hover {
+    color: yellow;
+    transform: scale(1.5);
+    transition: 0.5s;
+  }
+
+/* A New Way */
+
+.a-new-way{
+    display: flex;
+    background-color: #d1cfd1;
+    font-style: italic;
+    flex-direction: row;
+    padding: 0 5rem;
+}
+
+.a-new-way h2{
+    color: #336632;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.a-new-way p{
+    color: #47973b;
+}
+
+.spotify-playlist{
+    display: flex;
+    order:1;
+    margin: 1rem;
+    text-transform: uppercase;
+    flex-direction: column;
+}
+
+#a-new-way-text{
+    /* padding-top: 6rem; */
+    padding-right: 2rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.a-new-way button{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    background-color: #43934d;
+    color: #fff;
+    display: flex;
+    font-size: 20px;
+    font-style: italic;
+    margin: 1rem 0 0 2rem;
+    line-height: 3;
+}
+.a-new-way a{
+    text-decoration: none;
+}
+
+#podcast{
+    padding-top: 1rem;
+}
+
+/* Footer Styles*/
+
+.end-footer{
+    background-color: rgb(70,151,59);
+    color: white;
+}
+
+form{
+    font-family: 'Montserrat', sans-serif;
+    margin: 2rem; 
+    padding: 2rem;
+    text-align: center;
+}
+
+form button{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    background-color: #43934d;
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 2;
+    text-align: center;
+}
+
+#trademark{
+    text-align: center;
+    background-color: #47973b;
+    margin: 2rem;
+}
+
+h3{
+    text-transform: uppercase;
+    font-style: italic;
+    color: #43934d
+}
+
+#end-nav-bar-selections li{
+    font-size: 1rem;
+    color: white;
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: 1px; 
+    display: inline;
+}
+
+#main-menu{
+    text-align: center;
+    margin: 2rem;
+}
+
+#main-menu a{
+    text-decoration: none;
+}
+
+/* Mission Strike Through in Middle Section */
+
+@keyframes strike{
+    0%   { width : 0; }
+    100% { width: 100%; }
+  }
+
+  .strike {
+    position: relative;
+  }
+  
+  .strike::after {
+    content: ' ';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background: #c7f426;
+    animation-name: strike;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; 
+  }
+
+ 
+

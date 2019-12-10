@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thirst Thing's Thirst | Lemon Lime Soda | Sprite</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900,900i&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="nav-bar">
+        <div id="sprite-logo">
+            <a href="https://www.sprite.com/"><img src="images/sprite_nav_logo.png" alt="Sprite Logo"></a>
+        </div>
+        <nav class="main-menu">
+            <ul id="nav-bar-selections">
+                <li>Product Information</li>
+                <li>Buy Now</li>
+                <li>Rewards</li>
+            </ul>
+        </nav >
+        <nav class="social-media-nav">
+            <a href="https://www.facebook.com/spriteus" target="_blank"><img src="images/facebook-powerade.png" alt="Facebook Logo"/></a>
+
+            <a href="https://twitter.com/Sprite" target="_blank"><img src="images/twitter-powerade.png" alt="Twitter Logo"/></a>
+
+            <a href="https://www.instagram.com/sprite/" target="_blank"><img src="images/instagram-powerade.png" alt="Instagram Logo"/></a>
+            
+            
+            <!-- In this case all of the social media links/images look the same so you don't need an ID for each one - the container is sufficient. Also link (anchors) are their own separate tag so they can't go directly inside of an image. If I look at a picture there isn't a way for me to insert a link into the image. Instead we wrap the image inside of the link. See above. -->
+            <!-- <img id="facebook-logo" src="images/facebook-powerade.png" a href="https://www.facebook.com/spriteus" alt="Facebook Logo" target="_blank">
+            <img id="twitter-logo" src="images/twitter-powerade.png" a href="https://twitter.com/Sprite" alt="Twitter Logo" target="_blank">
+            <img id="instagram-logo" src="images/instagram-powerade.png" a href="https://www.instagram.com/sprite/" alt="Instagram Logo" target="_blank"> -->
+        </nav>
+    </header>
+    <div id="hero">
+        <img src="images/hero_new.jpg" alt="Thirst for Yours">
+    </div>
+    <div class="middle-section">
+        <h1>Sprite <br> Mission <br> Manifesto</h1>
+        <p> HIP-HOP'S FIRST TRILLIONAIRE.<br>
+            GOING TRIPLE-DOUBLE PLATINUM.<br>
+            GETTING TEN BILLION VIEWS.<br>
+            HAVING MORE RINGS THAN FINGERS.<br>
+            A REFRESHING ICE-COLD SPRITE.<br>
+            WHATEVER IT IS YOU WANT,
+            #THIRSTFORYOURS<br> <br> <br> 
+        </p>
+
+        <!-- <h1 id="middle-section-title">
+             <br> Sprite <br> Mission <br> Manifesto
+        </h1> -->
+        <!-- Instead of using an ID here its easier, more efficient to simply reference your p tag by selecting decendents. So in this case you have a div - with only one paragraph as a child. In the CSS you simply select the div and the p within it -> .middle-section p -->
+
+        <!-- Same with the title -> .middle-section h1 -->
+
+        <!-- <p id="middle-section-text"> HIP-HOP'S FIRST TRILLIONAIRE.<br>
+            GOING TRIPLE-DOUBLE PLATINUM.<br>
+            GETTING TEN BILLION VIEWS.<br>
+            HAVING MORE RINGS THAN FINGERS.<br>
+            A REFRESHING ICE-COLD SPRITE.<br>
+            WHATEVER IT IS YOU WANT,
+            #THIRSTFORYOURS<br> <br> <br> 
+        </p> -->
+    </div>
+    <div class="visual-media">
+        <div class="artist">
+            <h2>The Artist</h2>
+            <p>If you’re a rapper, thirst for more than the charts. And, if you’re thirsty, drink an ice-cold Sprite.</p>
+            
+            <p><a href="https://www.instagram.com/explore/tags/thirstforyours/">#ThirstForYours @KodieShane</a>
+            </p>
+            <iframe width="600" height="380" src="https://www.youtube.com/embed/b8DMLxCA_TE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="empire">
+            <h2>The Empire</h2>
+            <p>If you’re a designer, thirst for an intergalactic cover shoot. And, if you’re thirsty, drink an ice-cold Sprite.</p>
+            <p><a href="https://www.instagram.com/explore/tags/thirstforyours"> #ThirstForYours @seth.theplug</a></p>
+            <iframe width="600" height="380" src="https://www.youtube.com/embed/e_igAAExkRw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="thirsts-most-wanted">
+        <h1>Thirst's <br> Most <br> Wanted </h1>
+        <!-- <h1 id="thirst">Thirst's <br> Most <br> Wanted </h1> -->
+        <img src="images/Product_locator_bottle_v2.png" alt="Bottle of Sprite"/>
+        <button type="button">Buy Now</button>
+    </div>
+</body>
+</html>
